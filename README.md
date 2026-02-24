@@ -1,7 +1,7 @@
-# TalentScout Hiring Assistant 🤖
+# TalentBot: TalentScout AI Hiring Assistant 🤖
 
 ## 📋 Project Overview
-The **TalentScout Hiring Assistant** is an intelligent chatbot designed to automate the initial screening process for candidates seeking technology placements. As "TalentBot", it gracefully guides candidates through a conversational flow to gather essential details (Name, Contact, Experience, Desired Position, Location, and Tech Stack). Once gathered, the assistant dynamically generates 3-5 technical questions tailored explicitly to the candidate's reported robust Tech Stack to assess proficiency.
+The **TalentBot: TalentScout AI Hiring Assistant** is an intelligent chatbot designed to automate the initial screening process for candidates seeking technology placements. As "TalentBot", it gracefully guides candidates through a conversational flow to gather essential details (Name, Contact, Experience, Desired Position, Location, and Tech Stack). Once gathered, the assistant dynamically generates 3-5 technical questions tailored explicitly to the candidate's reported robust Tech Stack to assess proficiency.
 
 ## 🚀 Installation Instructions
 
@@ -65,3 +65,4 @@ The core engine driving the application is strictly enforced via an engineered s
    - **Solution:** Configured `with_fallbacks` leveraging OpenAI (`gpt-4o-mini`) automatically catching inference or connection timeouts and bouncing them to a high-speed cloud fallback avoiding disruptions.
 3. **Challenge:** Securing Personal Identifiable Information (PII) to comply with basic GDPR/Data Privacy protocols.
    - **Solution:** Implemented automatic one-way hashing of critical identifiers locally upon conversation termination when saving the interactions (`simulated_database.jsonl`).
+
