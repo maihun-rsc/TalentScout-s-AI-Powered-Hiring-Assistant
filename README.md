@@ -8,13 +8,25 @@ An intelligent, multi-persona AI chatbot designed to automate the initial HR scr
 The **TalentBot: TalentScout AI Hiring Assistant** is an intelligent chatbot designed to automate the initial screening process for candidates seeking technology placements. As "TalentBot", the hiring assistant gracefully guides candidates through a conversational flow to gather essential details (Name, Contact, Experience, Desired Position, Location, and Tech Stack). Once gathered, the assistant dynamically generates 3-5 technical questions tailored explicitly to the candidate's reported Tech Stack to assess their proficiency.
 
 ### Key Features
+
+<img width="1846" height="1022" alt="image" src="https://github.com/user-attachments/assets/fffa0756-1417-42fd-9c35-2843ccdbd47c" />
+
 - **Dynamic AI Personas:** Choose your interviewer from the main menu:
-  - **Lani 🦙:** A balanced and professional offline Llama assistant.
+  - **Lani 🦙:** A balanced and professional Llama assistant.
+<img width="1844" height="1022" alt="image" src="https://github.com/user-attachments/assets/ce855ece-c80f-45a3-8d21-19eed434fdcf" />
+
   - **Malik 👔:** An efficient, straight-to-the-point Google Gemini Hiring Manager.
-  - **Clara 😊:** A warm, chatty, and knowledgeable OpenAI (ChatGPT) assistant.
+<img width="1850" height="1023" alt="image" src="https://github.com/user-attachments/assets/b0a33055-69ad-4db0-bdf9-95be7a1021c2" />
+
+  - **Clara 😊:** A warm, chatty, and knowledgeable OpenAI assistant.
+<img width="1845" height="1022" alt="image" src="https://github.com/user-attachments/assets/bdd097d1-2983-4b2c-895f-dd487d9ea806" />
+
 - **Strict Conversational Flow:** The AI gathers candidate details *one by one* to prevent overwhelming the user, retaining organic conversational elements via memory buffers.
+<img width="1842" height="1022" alt="image" src="https://github.com/user-attachments/assets/127820e9-4bc7-40d5-9251-455ed66f3d61" />
+
 - **Dynamic Technical Assessment:** Generates relevant technical questions based *only* on the candidate's reported tech stack.
-- **Real-Time Sentiment Analysis:** Integrates `TextBlob` to visually track and display the candidate's emotional polarity (Positive/Neutral/Negative) during the interview.
+<img width="1839" height="1019" alt="image" src="https://github.com/user-attachments/assets/3799807a-2dbf-46eb-bba8-d07e3c4f4fda" />
+
 - **Graceful Failovers:** Natively supports routing API requests to Google Gemini, OpenAI, or a purely offline local Ollama instance.
 - **Privacy & Anonymization:** Simulates GDPR compliance by automatically one-way hashing Candidate Session IDs and dumping the conversation safely to a `.jsonl` file when the user exits the chat.
 
@@ -100,7 +112,10 @@ This will open up a local web interface in your default browser (usually at `htt
 - **Role:** Software & AI Developer
 
 ---
+*Developed under the [MIT License](LICENSE).*
+
 *If you find this repository useful, feel free to fork it and leave a star!* ⭐
+
 
 
 
