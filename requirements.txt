@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-openai
+langchain-core
+streamlit
+python-dotenv
+textblob
+pydantic
+email-validator
