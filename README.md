@@ -7,8 +7,8 @@ The **TalentBot: TalentScout AI Hiring Assistant** is an intelligent chatbot des
 
 ### Prerequisites
 - Python 3.9+
-- [Ollama](https://ollama.com/) (to run the Local Llama 3.2 model offline).
-- An OpenAI API Key (Optional) for fallback operations.
+- [Ollama](https://ollama.com/) (to run the Local Llama 3.2 model and embeddings model offline).
+- An OpenAI API Key and/or a Google AI Key (Optional) for fallback measures.
 
 ### Setup
 1. **Clone the project** or extract it into your desired directory.
@@ -65,4 +65,5 @@ The core engine driving the application is strictly enforced via an engineered s
    - **Solution:** Configured `with_fallbacks` leveraging OpenAI (`gpt-4o-mini`) automatically catching inference or connection timeouts and bouncing them to a high-speed cloud fallback avoiding disruptions.
 3. **Challenge:** Securing Personal Identifiable Information (PII) to comply with basic GDPR/Data Privacy protocols.
    - **Solution:** Implemented automatic one-way hashing of critical identifiers locally upon conversation termination when saving the interactions (`simulated_database.jsonl`).
+
 
