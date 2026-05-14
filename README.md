@@ -1,6 +1,6 @@
 # TalentBot: TalentScout AI Hiring Assistant
 
-An intelligent, multi-persona AI chatbot designed to automate the initial HR screening process for technology candidates. Built with **Streamlit**, **LangChain**, and **Ollama**, it seamlessly handles conversational data gathering, dynamic technical assessments, and real-time sentiment tracking.
+An intelligent, multi-persona AI chatbot designed to automate the initial HR screening process for technology candidates. Built with **Streamlit**, **LangChain**, **RAG** and **Ollama**, it seamlessly handles conversational data gathering, dynamic technical assessments, and real-time sentiment tracking. 
 
 ---
 
@@ -108,7 +108,7 @@ This will open up a local web interface in your default browser (usually at `htt
 ## Author Details
 
 **Rananjay Singh Chauhan**
-- **Email:** rananjaychauhan93@gmail.com | rjchauhanbackup@gmail.com
+- **Email:** rananjaychauhan93@gmail.com | rjchauhan.work@gmail.com | rjchauhanbackup@gmail.com
 - **Role:** Software & AI Developer
 
 ---
